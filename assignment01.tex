@@ -1,23 +1,65 @@
-\documentclass[12pt]{article}
-\usepackage{amsmath}
-\title{\LaTeX}
-\date{}
-\begin{document}
-  \maketitle
-  \LaTeX{} is a document preparation system for the \TeX{}
-  typesetting program. It offers programmable desktop publishing
-  features and extensive facilities for automating most aspects of
-  typesetting and desktop publishing, including numbering and
-  cross-referencing, tables and figures, page layout, bibliographies,
-  and much more. \LaTeX{} was originally written in 1984 by Leslie
-  Lamport and has become the dominant method for using \TeX; few
-  people write in plain \TeX{} anymore. The current version is
-  \LaTeX2e.
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref} 
+\usepackage[pdftex]{graphicx}
 
-  % This is a comment; it will not be shown in the final output.
-  % The following shows a little of the typesetting power of LaTeX:
-  \begin{align}
-    E &= mc^2                              \\
-    m &= \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}
-  \end{align}
+
+\title{assignment01}
+\date{September 2018}
+
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+	
+	\maketitle
+	Name: Yunhu Kim  student number:2018120195\\
+	Email: yunhu0110@gmail.com\\ 
+	phone: 010 7942 0734\\ 
+	Seoul, Korea\\ 
+	Link :\href{url}{https://github.com/yunhu0110/}\
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{git.png}
+\end{figure}
+	
+	\section{What is the git?}
+	Github is an open source code hosting platform that can be collaborated. It's like a drop box or a one-drive cloud.
+	Puts up files and shares time-based history with people everywhere to enable projects together.
+	
+
+	\section{How to use git?}
+	
+	\subsection{Repository}
+	The first is to explain the concept of Repository. Repository is literally a repository for folders.
+	Repository is divided into Local Repository and Remote Repository, which is like a folder in my window.
+	It is in my computer. The Remote Repository is a remote repository that exists in the flag and can be synchronized with the Local Repository.
+	An example is the same thing as the 'Assignment01' made in my Git.
+	Use this Local Repository and Remote Repository to upload from My Lab PC (Local) to Remote Repository.
+	Call it back from home to the laptop (Local) to allow it to work. Downloading a remote repository like this is called a clone.
+	
+	\subsection{Create a Project}
+	You can name the Repository 'Assignment01' and write a description for it.
+	Public is free for anyone to see the contents of my flag, and Private can only reach my own flag, which is a charge.
+	Create New File creates a new file and Upload Files uploads the file to the Remote Repository.
+	Clone or download is a download from the Remote Repository to the Local Repository as previously stated.
+	
+	\subsection{Branch}
+	Branch has an initial value of master. Branch starts with existing master, Sub1,Sub2,... etc. derived from the master
+	It allows you to work. We need to know about the concept of Commit before we proceed further. You can understand that Commit is a time capsule.
+	When I do my work and commit, each one of them is stored in a time capsule.
+	If the Commit has been run four times, there are four chronological time capsules available and it is possible to go back from number 4 to 3.
+	Then I'll go back to Branch. For example, if you work in the master, do Commit two, and put the brand in place from that point,
+	Collaborators work from the second Commit moment. After each individual has done their work, they combine their respective brackets through Git Merger.
+	
+	\section{Simulation}
+	Git is a program that can be downloaded here and linked to Github.
+	Install and run Git in accordance with the operating system. Then, when you type the word 'git branch', the word '*master' appears. This means that the flag brand is now in its default master.
+	For example, suppose I work with collaborators by making three commits and branding Dataminating. So if you write 'git branch datamining', the branding Dataminating
+	It is made. 
+	When you write "git push datamining," the database is synchronized to the remote repository.
+	On the Github page, there is a button called Pull Request. You can think of this button simply as a report. This is a report that asks the partners to reflect on the master after seeing my brand.
+	Here, a Pull Request is written using Mark up, which is more like the concept of coding than traditional methods. For example, if you want to do bold treatment, you have to write **Dataming**.
+	Finally, several people make a brand like this, and it's normal to have a Git Meger, which anyone can press but not anyone.
 \end{document}
