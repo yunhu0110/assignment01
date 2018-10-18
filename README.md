@@ -1,2 +1,2 @@
-# assignment01
+# assignment
 assignment01_Datamining
